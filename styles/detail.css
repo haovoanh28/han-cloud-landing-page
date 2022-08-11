@@ -1,0 +1,267 @@
+:root {
+  --secondary-text: #666666;
+}
+
+#detail {
+  background-color: #fff;
+}
+
+/* ========= Cloud Server ========= */
+.cloud-server {
+  display: flex;
+  margin-top: 120px;
+}
+
+.cloud-server-introduce {
+  width: 45%;
+}
+
+.cloud-introduce {
+  padding: 36px 0 30px 180px;
+  color: #fff;
+  background-color: var(--main-bg-color);
+}
+
+.cloud-server-introduce p {
+  margin: 0;
+}
+
+.introduce-content-title {
+  display: inline-block;
+  padding-bottom: 21px;
+  line-height: 12px;
+  font-size: 25px;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+}
+
+.introduce-content-body {
+  margin-top: 26px;
+}
+
+.cloud-notice {
+  margin-top: 18px;
+  padding-left: 180px;
+  padding-right: 24px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #9a9a9a;
+}
+
+.cloud-server-image {
+  position: relative;
+  top: -55px;
+  width: 42%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.cloud-image-caption {
+  margin-top: 10px;
+  display: block;
+  text-align: right;
+  color: #9a9a9a;
+}
+
+/* ========= Cloud Fee ========= */
+.cloud-fee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.fee-specification {
+  margin-top: 42px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fee-spec-col {
+  text-align: right;
+  width: 133px;
+}
+.fee-spec-col.border {
+  text-align: center;
+  background-color: #f5f7f9;
+  border: 1px solid #d7e5ed;
+  border-radius: 5px;
+}
+
+.fee-spec-title {
+  color: var(--main-bg-color);
+  padding: 10px 0 10px 0;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}
+.fee-spec-title.border {
+  border-bottom: 1px solid #d7e5ed;
+}
+
+.spec-text-container {
+  padding: 14px 0 24px 0;
+  font-size: 12px;
+}
+
+.spec-text:not(:first-of-type) {
+  margin-top: 13px;
+}
+
+/* ========= Cloud Services ========= */
+.cloud-services-container {
+  background-color: #f5f7f9;
+  padding-top: 50px;
+  padding-bottom: 105px;
+}
+
+.cloud-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.services-row {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 70px;
+  width: 60%;
+}
+
+.service-item {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.item-wrapper {
+  display: flex;
+  width: 250px;
+}
+
+.service-icon {
+  margin-right: 12px;
+  font-size: 24px;
+  color: var(--main-bg-color);
+}
+.service-name {
+  color: var(--secondary-text);
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.service-description {
+  color: var(--secondary-text);
+}
+
+/* ========= Cloud Traffic ========= */
+.cloud-traffic-container {
+  padding: 55px 20px 100px 20px;
+}
+
+.traffic-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 20px auto 0 auto;
+}
+.traffic-table table {
+  margin-bottom: 10px;
+}
+.traffic-table-note {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 12px;
+  color: #9a9a9a;
+}
+.traffic-additional {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.traffic-additional-item {
+  color: var(--secondary-text);
+  display: flex;
+  gap: 20px;
+}
+.traffic-additional-icon {
+  background-color: var(--main-bg-color);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.traffic-item-name {
+  font-weight: 400;
+  font-size: 25px;
+  border-bottom: 1px solid #666666;
+  display: inline-block;
+  padding-bottom: 16px;
+}
+.traffic-item-content {
+  margin-top: 12px;
+}
+
+/* ========= Cloud Features ========= */
+.cloud-features {
+  padding: 100px 10% 150px 10%;
+  background-color: #f5f7f9;
+}
+.feature-img {
+  position: relative;
+}
+.feature-description,
+.feature-notice {
+  display: flex;
+  gap: 55px;
+}
+.feature-description-content {
+  font-size: 14px;
+}
+.feature-content-row {
+  margin-top: 20px;
+}
+.feature-name {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+
+/* ========= Common ========= */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-text);
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+}
+
+.divider {
+  margin-top: 9px;
+  margin-bottom: 18px;
+  width: 188px;
+  height: 0px;
+  border: 1px solid var(--secondary-text);
+}
+
+.background-text {
+  background: rgba(71, 167, 255, 0.15);
+  border-radius: 5px;
+  width: max-content;
+  padding: 4px;
+}

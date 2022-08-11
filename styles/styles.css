@@ -1,0 +1,79 @@
+#cloud-services {
+  background-color: #f4f4f4;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.services-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.service-column {
+}
+
+.service-row {
+  display: flex;
+}
+
+.service-header {
+  display: block;
+  background-color: #a94545;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 20px 40px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  line-height: 1.2;
+}
+
+.service-item {
+  background-color: #fff;
+  padding: 24px 20px;
+  flex: 1;
+}
+
+.service-item.border-bottom {
+  border-bottom: 2px solid #ebebeb;
+}
+.service-item.border-right {
+  border-right: 2px solid #ebebeb;
+}
+
+.service-icon i {
+  font-size: 28px;
+}
+
+.service-name {
+  color: gray;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.service-description {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.service-link {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner-img {
+    display: none;
+  }
+
+  .banner-description-search {
+    width: 100%;
+  }
+
+  .services-wrapper {
+    flex-direction: column;
+  }
+}
