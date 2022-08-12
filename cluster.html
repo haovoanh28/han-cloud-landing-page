@@ -19,9 +19,9 @@
 
    <link rel="stylesheet" href="./styles/common.css">
    <link rel="stylesheet" href="./styles/banner.css">
-   <link rel="stylesheet" href="./styles/styles.css">
+   <link rel="stylesheet" href="./styles/cluster.css">
 
-   <title>Document</title>
+   <title>Cluster</title>
 </head>
 
 <body>
@@ -617,208 +617,383 @@
       </div>
    </div>
 
-   <div id="cloud-services" class="section alternate">
-      <div class="container">
-
-         <div class="services-wrapper">
-            <!-- Services Wrapper -->
-            <div class="service-column">
-               <span class="service-header">
-                  <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                  <span>CLOUD</span>
-               </span>
-               <div class="service-item border-bottom">
-                  <div class="service-icon">
-                     <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                  </div>
-                  <div class="service-name">Cloud Server</div>
-                  <div class="service-description">클라우드서버</div>
-                  <div class="service-link"><a href="server.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-               </div>
-               <div class="service-item border-bottom">
-                  <div class="service-icon">
-                     <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                  </div>
-                  <div class="service-name">Bare Metal Server</div>
-                  <div class="service-description">클라우드인프라 독립서버</div>
-                  <div class="service-link"><a href="server.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-               </div>
-               <div class="service-item border-bottom">
-                  <div class="service-icon">
-                     <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                  </div>
-                  <div class="service-name">Auto Scaling</div>
-                  <div class="service-description">클라우드서버 자동확장 클러스터</div>
-                  <div class="service-link"><a href="server.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-               </div>
-               <div class="service-item">
-                  <div class="service-icon">
-                     <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                  </div>
-                  <div class="service-name">Load Balancer</div>
-                  <div class="service-description">클라우드기반 클러스터 LB</div>
-                  <div class="service-link"><a href="server.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-               </div>
-
-            </div>
-
-            <div class="service-column">
-               <span class="service-header">
-                  <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                  <span>
-                     DATABASE ON KUBERNETES
-                  </span>
-               </span>
-
-               <div class="service-row">
-                  <div class="service-item border-bottom border-right">
-                     <div class="service-icon">
-                        <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                     </div>
-                     <div class="service-name">POD Container</div>
-                     <div class="service-description">오케스트레이션 컨테이너 서비스</div>
-                     <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-                  </div>
-                  <div class="service-item border-bottom">
-                     <div class="service-icon">
-                        <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                     </div>
-                     <div class="service-name">MySQL Cluster</div>
-                     <div class="service-description">MySQL 클러스터</div>
-                     <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-                  </div>
-
-               </div>
-
-               <div class="service-row">
-                  <div class="service-item border-bottom border-right">
-                     <div class="service-icon">
-                        <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                     </div>
-                     <div class="service-name">ELK Stack</div>
-                     <div class="service-description">엘라스틱서치 로그분석시스템</div>
-                     <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-                  </div>
-                  <div class="service-item border-bottom">
-                     <div class="service-icon">
-                        <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                     </div>
-                     <div class="service-name">PostgreSQL Cluster</div>
-                     <div class="service-description">PostgreSQL 클러스터</div>
-                     <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-                  </div>
-               </div>
-
-               <div class="service-row">
-                  <div class="service-item border-bottom border-right">
-                     <div class="service-icon">
-                        <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                     </div>
-                     <div class="service-name">Kong, Nginx Gateway</div>
-                     <div class="service-description">분산...............</div>
-                     <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-                  </div>
-                  <div class="service-item border-bottom">
-                     <div class="service-icon">
-                        <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                     </div>
-                     <div class="service-name">Vitess Cluster</div>
-                     <div class="service-description">MySQL Vitess 클러스터</div>
-                     <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-                  </div>
-               </div>
-
-               <div class="service-row">
-                  <div class="service-item border-bottom border-right">
-                     <div class="service-icon">
-                        <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                     </div>
-                     <div class="service-name">Kafka MQ Engine</div>
-                     <div class="service-description">컨테이너기반 Kafka</div>
-                     <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-                  </div>
-                  <div class="service-item border-bottom">
-                     <div class="service-icon">
-                        <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                     </div>
-                     <div class="service-name">MongoDB Cluster</div>
-                     <div class="service-description">MongoDB 클러스터</div>
-                     <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-                  </div>
-               </div>
-
-               <div class="service-row">
-                  <div class="service-item border-bottom border-right">
-                     <div class="service-icon">
-                        <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                     </div>
-                     <div class="service-name">Rabbit MQ</div>
-                     <div class="service-description">컨테이너기반 Kafka</div>
-                     <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-                  </div>
-                  <div class="service-item border-bottom">
-                     <div class="service-icon">
-                        <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                     </div>
-                     <div class="service-name">Cassandra Cluster</div>
-                     <div class="service-description">Cassandra 클러스터</div>
-                     <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-                  </div>
-               </div>
-
-               <div class="service-row">
-                  <div class="service-item border-right">
-                     <div class="service-icon">
-                        <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                     </div>
-                     <div class="service-name">Elastic Search Cluster</div>
-                     <div class="service-description">Elastic Search 클러스터</div>
-                     <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-                  </div>
-                  <div class="service-item">
-                     <div class="service-icon">
-                        <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                     </div>
-                     <div class="service-name">Redis Cluster</div>
-                     <div class="service-description">Redis 클러스터</div>
-                     <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-                  </div>
+   <div id="detail">
+      <div class="cloud-server">
+         <div class="introduce-container">
+            <div class="introduce-content">
+               <span class="introduce-content-title">클라우드서버</span>
+               <div class="introduce-content-body">
+                  <p>한비로 Cloud CMS 에서 수분내에 서버생성및 운영</p>
+                  <p>제공되는 서버이미지 리눅스, 윈도우, 워드프레스서버, 톰캣서버, Nginx 서버 등.</p>
+                  <p>서버복제, 오토스케일링, 클러스터구성, 이벤트서버, 이미지서버 구축기능제공</p>
+                  <p>서버의 스토리지용량확장외 서비스 시스템 구성의 간편함과 동시성</p>
                </div>
             </div>
-
-            <div class="service-column">
-               <span class="service-header">
-                  <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                  <span>STORAGE</span>
-               </span>
-               <div class="service-item border-bottom">
-                  <div class="service-icon">
-                     <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                  </div>
-                  <div class="service-name">OBJECT Storage</div>
-                  <div class="service-description">S3, API 전용 분산스토리지</div>
-                  <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-               </div>
-               <div class="service-item border-bottom">
-                  <div class="service-icon">
-                     <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                  </div>
-                  <div class="service-name">BLOCK Storage</div>
-                  <div class="service-description">오픈스택 블록스토리지</div>
-                  <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-               </div>
-               <div class="service-item">
-                  <div class="service-icon">
-                     <i class="fa fa fa-cogs" aria-hidden="true"></i>
-                  </div>
-                  <div class="service-name">NAS Storage</div>
-                  <div class="service-description">클러스터전용 공유스토리지</div>
-                  <div class="service-link"><a href="cluster.html">자세히 보기</a> <i class="fa fa-angle-right"></i></div>
-               </div>
+            <div class="introduce-notice">
+               <p>* <span class="bold">한비로</span> Cloud Service <span class="bold">는 물리적인 코어를 할당하는</span> Cloud <span
+                     class="bold">서버를 제공</span></p>
+               <p>* <span class="bold">한비로</span> Cloud Service <span class="bold">의 스토리지는 전체</span> SSD <span
+                     class="bold">디스크를 제공</span></p>
             </div>
-            <!-- End Services Wrapper -->
+         </div>
+         <div class="introduce-image">
+            <img src="images/my-sql-cluster.png" alt="오토스케일링구성도" />
+            <span class="introduce-image-caption">* 오토스케일링구성도</span>
          </div>
       </div>
+
+      <div class="specification-container">
+         <div class="header">
+            <span class="header-title">클라우드서버 요금안내</span>
+            <div class="detail-divider"></div>
+            <span class="">1 compute -> 월 500,000 CPU => 32 max</span>
+         </div>
+
+         <div class="specification-body">
+            <div class="spec-col">
+               <div class="spec-title">&nbsp;</div>
+               <div class="spec-text-container">
+                  <div class="spec-text bold">CPU</div>
+                  <div class="spec-text bold">Memory</div>
+                  <div class="spec-text bold">Storage</div>
+                  <div class="spec-text bold">Traffic 전송량(일)</div>
+                  <div class="spec-text bold">서비스비용(일)</div>
+                  <div class="spec-text bold">서비스비용(월)</div>
+               </div>
+            </div>
+
+            <div class="spec-col border">
+               <div class="spec-title border">소호형 상품</div>
+               <div class="spec-text-container">
+                  <div class="spec-text">1 Core</div>
+                  <div class="spec-text">4G</div>
+                  <div class="spec-text">SSD 50G</div>
+                  <div class="spec-text">30G</div>
+                  <div class="spec-text">570</div>
+                  <div class="spec-text">17,000</div>
+               </div>
+            </div>
+            <div class="spec-col border">
+               <div class="spec-title border">스탠다드 상품</div>
+               <div class="spec-text-container">
+                  <div class="spec-text">1 Core</div>
+                  <div class="spec-text">4G</div>
+                  <div class="spec-text">SSD 50G</div>
+                  <div class="spec-text">30G</div>
+                  <div class="spec-text">570</div>
+                  <div class="spec-text">17,000</div>
+               </div>
+            </div>
+            <div class="spec-col border">
+               <div class="spec-title border">비지니스</div>
+               <div class="spec-text-container">
+                  <div class="spec-text">1 Core</div>
+                  <div class="spec-text">4G</div>
+                  <div class="spec-text">SSD 50G</div>
+                  <div class="spec-text">30G</div>
+                  <div class="spec-text">570</div>
+                  <div class="spec-text">17,000</div>
+               </div>
+            </div>
+            <div class="spec-col border">
+               <div class="spec-title border">엔터프라이즈형</div>
+               <div class="spec-text-container">
+                  <div class="spec-text">1 Core</div>
+                  <div class="spec-text">4G</div>
+                  <div class="spec-text">SSD 50G</div>
+                  <div class="spec-text">30G</div>
+                  <div class="spec-text">570</div>
+                  <div class="spec-text">17,000</div>
+               </div>
+            </div>
+            <div class="spec-col border">
+               <div class="spec-title border">유저선택형</div>
+               <div class="spec-text-container">
+                  <div class="spec-text">1 Core</div>
+                  <div class="spec-text">4G</div>
+                  <div class="spec-text">SSD 50G</div>
+                  <div class="spec-text">30G</div>
+                  <div class="spec-text">570</div>
+                  <div class="spec-text">17,000</div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="cloud-services-container">
+         <div class="header">
+            <span class="header-title">클라우드서버 요금안내</span>
+            <div class="detail-divider"></div>
+         </div>
+
+         <div class="cloud-services">
+            <div class="services-row">
+               <div class="service-item">
+                  <div class="item-wrapper">
+                     <div class="service-icon">
+                        <i class="fa fa-fax"></i>
+                     </div>
+                     <div>
+                        <p class="service-name">Auto Scaling</p>
+                        <p class="service-description">클라우드서버 자동확장 클러스터</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="service-item">
+                  <div class="item-wrapper">
+
+                     <div class="service-icon">
+                        <i class="fa fa-fax"></i>
+                     </div>
+                     <div>
+                        <p class="service-name">Load Balancer</p>
+                        <p class="service-description">클라우드기반 클러스터 LB</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="service-item">
+                  <div class="item-wrapper">
+
+                     <div class="service-icon">
+                        <i class="fa fa-fax"></i>
+                     </div>
+                     <div>
+                        <p class="service-name">Kubernetes</p>
+                        <p class="service-description">Application / Database</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="services-row" style="margin-top: 70px">
+               <div class="service-item">
+                  <div class="item-wrapper">
+
+                     <div class="service-icon">
+                        <i class="fa fa-fax"></i>
+                     </div>
+                     <div>
+                        <p class="service-name">Block Storage</p>
+                        <p class="service-description">오픈스택 블록스토리지</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="service-item">
+                  <div class="item-wrapper">
+
+                     <div class="service-icon">
+                        <i class="fa fa-fax"></i>
+                     </div>
+                     <div>
+                        <p class="service-name">NAS Storage</p>
+                        <p class="service-description">클러스터전용 공유스토리지</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="service-item">
+                  <div class="item-wrapper">
+
+                     <div class="service-icon">
+                        <i class="fa fa-fax"></i>
+                     </div>
+                     <div>
+                        <p class="service-name">Object Storage</p>
+                        <p class="service-description">S3, API 전용 분산스토리지</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="cloud-traffic-container">
+         <div class="header">
+            <span class="header-title">트래픽요금안내</span>
+            <div class="detail-divider"></div>
+         </div>
+
+         <div class="traffic-table">
+            <table class="table table-bordered">
+               <thead>
+                  <th>구분</th>
+                  <th>구간</th>
+                  <th>요금 (GB)</th>
+               </thead>
+
+               <tbody>
+                  <tr>
+                     <td class="bold">한비로 Cloud 서비스통신구간</td>
+                     <td></td>
+                     <td>무료</td>
+                  </tr>
+                  <tr>
+                     <td class="bold">인바운드 트래픽</td>
+                     <td></td>
+                     <td>무료</td>
+                  </tr>
+                  <tr>
+                     <td class="bold">인바운드 트래픽</td>
+                     <td>900 GB / 월</td>
+                     <td>무료</td>
+                  </tr>
+
+                  <tr>
+                     <td class="bold" rowspan="5" style="vertical-align: middle;">해외망 아웃바운드 트래픽 (초과사용)</td>
+                     <td>1 G ~ 1,000 G</td>
+                     <td>70 원</td>
+                  </tr>
+
+                  <tr>
+                     <td>1,001 G ~ 2,000 G</td>
+                     <td>60 원</td>
+                  </tr>
+                  <tr>
+                     <td>2,001 G ~ 3,000 G</td>
+                     <td>50 원</td>
+                  </tr>
+                  <tr>
+                     <td>3,001 G ~ 4,000 G</td>
+                     <td>40 원</td>
+                  </tr>
+                  <tr>
+                     <td>4,001 G ~ </td>
+                     <td>30 원</td>
+                  </tr>
+
+                  <tr>
+                     <td class="bold">해외망 아웃바운드 트래픽 (초과사용)</td>
+                     <td>국내망과 동일</td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <p class="traffic-table-note">* 해외망트래픽요금추가확인필요</p>
+         </div>
+
+         <div class="traffic-additional">
+            <div class="traffic-additional-item">
+               <div class="traffic-additional-icon">
+                  &nbsp;
+               </div>
+               <div class="">
+                  <span class="traffic-item-name">아이피추가</span>
+                  <div class="traffic-item-content">
+                     <span>
+                        아이피추가 월 3,000원 / 1대의 Cloud 서버 최대 2개추가
+                     </span>
+                  </div>
+               </div>
+            </div>
+
+            <div class="traffic-additional-item">
+               <div class="traffic-additional-icon">
+                  &nbsp;
+               </div>
+               <div class="">
+                  <span class="traffic-item-name">운영체제 및 데이터베이스 지원</span>
+                  <div class="traffic-item-content">
+                     <p>Cloud 서버설치와 동시에 선택할 수 있는 이미지목록</p>
+                     <p> - CentOS, Rocky, Ubuntu, Windows Server</p>
+                     <p> - Mysql, Maria, MS-SQL, PostgreSQL, Redis, MongoDB</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="cloud-features">
+         <div class="feature-description">
+            <div class="feature-img" style="top: -105px">
+               <img src="images/detail/feature-1.svg"/>
+            </div>
+            <div class="">
+               <div class="header">
+                  <span class="header-title" style="align-self: flex-start;">한비로 CLOUD 서비스 특징</span>
+                  <div class="detail-divider" style="align-self: flex-start;"></div>
+               </div>
+
+               <div class="feature-description-content">
+                  <div class="">
+                     <p class="bold background-text feature-name">한비로 CLOUD 의 주요장점</p>
+                     <p>제공된 서버자원의 독립성을 보장하며, 안정적인 서비스를 운영할 수 있습니다.</p>
+                  </div>
+                  <div class="feature-content-row">
+                     <p class="bold background-text feature-name">한비로 쿠버네티스기반의 데이터베이스와 연동</p>
+                     <p>한비로 <span class="bold">Kubernetes</span> 서비스의 연동으로 대용량 클러스터서버를 구축할 수 있습니다.</p>
+                  </div>
+                  <div class="feature-content-row">
+                     <p class="bold background-text feature-name">한비로 쿠버네티스기반의 어플리케이션과 연동</p>
+                     <p>한비로 <span class="bold">Cloud</span> 서버와 쿠버네티스기반의 <span class="bold">Kafka, RabbitMQ, Kong,
+                           Envoy, Nginx</span> 엔진등을 연동할 수 있습니다.</p>
+                  </div>
+                  <div class="feature-content-row">
+                     <p class="bold background-text feature-name">독립 클라우드 시스템 구축</p>
+                     <p>
+                     <p>고객의 서비스를 위한 독립 <span class="bold">Openstack</span> 시스템, 독립 <span class="bold">Kubernetes</span>
+                        시스템을 구축해 드리며,</p>
+                     <p><span class="bold">Openstack</span> 과 <span class="bold">Kubernetes</span> 시스템을 융합한 서비스를
+                        구축해드립니다. </p>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="feature-notice">
+            <div>
+               <div class="header max-content">
+                  <span class="header-title" style="align-self: flex-start;">한비로 CLOUD 서비스 주의사항</span>
+                  <div class="detail-divider" style="align-self: flex-start;"></div>
+               </div>
+               
+               <div class="feature-notice-content">
+                  <p>백업은 고객이 별도로 보관해야 합니다. 한비로는 인프라운영의 보조목적으로 백업을 운영하며,</p>
+                  <p>하드웨어장애 외부의 침입으로 발생하는 데이터의 손실에 대한 책임이 없습니다.</p>            
+                  <br>
+      
+                  <p>한비로 <span class="bold">Cloud CMS</span> 에서 생성한 자원은 사용하지 않더라도 생성일자 기준으로 과금됩니다. </p>
+                  <br>
+
+                  <p>한비로 <span class="bold">Cloud</span> 서비스의 자원 생성, 삭제, 변경은 <span class="bold">1</span>일 <span class="bold">1</span>회만 가능합니다.</p>
+                  <p>삭제와 변경시에는 백업을 한후 진행해야 합니다. </p>
+                  <br>
+
+                  <p><span class="bold">Windows</span> 운영체제의 클라우드 서버사용시 라이센스 정책은 <span class="bold">MS</span> 라이센스 정책을 따릅니다. </p>
+                  <p><span class="bold">MS</span> 라이센스정책은 월단위로 과금되며, <span class="bold">1</span>개월미만의 사용시에도 월단위 과금이 진행됩니다.</p>
+                  <br>
+
+                  <div class="background-text">
+                     <p>베어메탈서버는 오토스케일링을 지원하지 않습니다. </p>
+                     <p>베어메탈서버는 블록스토리지 마운트를 지원하지 않습니다. </p>
+                  </div>
+                  <br>
+
+                  <p>한비로 Cloud 서비스는 일반적인 기업의 서비스를 지원하며, 연산을 위한 컴퓨팅자원을 사용할 수 없습니다. </p>
+               </div>
+            </div>
+
+            <div class="feature-img" style="top: -105px">
+               <img src="images/detail/feature-1.svg"/>
+            </div>
+         </div>
+         
+         <div class="feature-term">
+            <div class="header max-content">
+               <span class="header-title">한비로 CLOUD 서비스 이용약관</span>
+               <div class="detail-divider" ></div>
+               <span>한비로 Cloud 서비스 이용약관 -> 영업팀내용추가</span>
+            </div>
+
+            <div class="feature-term-img">
+               <img src="images/detail/term-of-service.jpg"/>
+            </div>
+         </div>
+      </div>
+
    </div>
 
    <!-- Download and Related Link -->
@@ -849,7 +1024,6 @@
       </div>
    </div>
 
-
    <!-- Demo Request -->
    <div class="callout styleBackgroundColor">
       <!-- add "styleBackgroundColor" class for colored background and white text OR "dark" for a dark callout -->
@@ -864,8 +1038,8 @@
             </div>
 
             <!-- <div class="col-md-4 text-right">
-            <a href="/software/hanbiro-groupware-screenshots.html" rel="nofollow" class="btn btn-primary btn-lg">View Screenshots</a>
-          </div> -->
+               <a href="/software/hanbiro-groupware-screenshots.html" rel="nofollow" class="btn btn-primary btn-lg">View Screenshots</a>
+             </div> -->
 
          </div>
 

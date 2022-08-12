@@ -1,0 +1,12 @@
+#server .spec-col {
+  width: 200px;
+}
+
+#server .specification-body {
+  margin-top: 26px;
+  margin-right: 120px;
+}
+
+.server-database {
+  background-color: var(--secondary-bg-color);
+}
